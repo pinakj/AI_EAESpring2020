@@ -33,7 +33,7 @@ public:
 		void put(NodeRecord node, int prio)
 		{
 			std::pair<NodeRecord, int> element;
-			for (int i = 0; i < elements.size; i++)
+			for (int i = 0; i < elements.size(); i++)
 			{
 				element = elements[i];
 				if (element.second > prio)

@@ -1,8 +1,9 @@
 #include "ofApp.h"
 #include "Boid.h"
+#include "Graph.h"
 
 int sim = 0;
-
+Graph homeGraph;
 //--------------------------------------------------------------
 void ofApp::setup(){
 	isUpdating = false;
@@ -11,6 +12,8 @@ void ofApp::setup(){
 
 	ofSetWindowShape(width, height);
 	boid1 = new Boid(50, 50, 50, 100);
+
+	homeGraph = Graph::Graph("Graphs/MyHouseDirectedGraph.csv");
 
 }
 

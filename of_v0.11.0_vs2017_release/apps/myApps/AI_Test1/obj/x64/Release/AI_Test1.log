@@ -1,4 +1,20 @@
-﻿  AI_Test1.vcxproj -> C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\AI_Test1.exe
+﻿  ofApp.cpp
+  SearchingAlgorithm.cpp
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\SearchingAlgorithm.cpp)
+     Creating library bin\AI_Test1.lib and object bin\AI_Test1.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  AI_Test1.vcxproj -> C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\AI_Test1.exe
   
   	                   2	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\libs\fmodex\lib\vs\x64\
   	  *EXTRA File 		 6942208	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\FreeImage.dll
