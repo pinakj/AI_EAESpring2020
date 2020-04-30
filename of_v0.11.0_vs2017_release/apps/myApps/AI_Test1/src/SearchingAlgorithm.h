@@ -28,7 +28,33 @@ public:
 
 	struct PriorityQueue
 	{
+		std::vector <std::pair<NodeRecord, int>> elements;
 
+		void put(NodeRecord node, int prio)
+		{
+			std::pair<NodeRecord, int> element;
+			for (int i = 0; i < elements.size; i++)
+			{
+				element = elements[i];
+				if (element.second > prio)
+				{
+					elements.insert(elements.begin() + i, std::pair<NodeRecord, int>(node, prio));
+				}
+			}
+			elements.push_back(std::pair<NodeRecord,int>(node,prio));
+		}
+
+		NodeRecord get()
+		{
+			NodeRecord ret = elements.front().first;
+			elements.erase(elements.begin());
+			return ret;
+		}
+
+		bool empty() const
+		{
+			return elements.empty();
+		}
 	};
 public:
 	static std::vector<int> pathfindDijkstra(Graph graph, int start, int end);
