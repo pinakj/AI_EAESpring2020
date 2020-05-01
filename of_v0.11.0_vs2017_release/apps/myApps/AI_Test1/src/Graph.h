@@ -13,6 +13,7 @@ class Graph
 public:
 
 	void open(string name);
+	vector<DirectedWeightedEdges> getConnections(int node);
 
 	Graph(string name);
 	Graph() {}
@@ -31,9 +32,8 @@ inline void Graph::open(string name)
 
 	string x, y, z;
 
-	while (stream.good())
+	while (getline(stream, x, ','))
 	{
-		getline(stream, x, ',');
 		getline(stream, y, ',');
 		getline(stream, z, '\n');
 
@@ -55,10 +55,16 @@ inline void Graph::open(string name)
 			graph[source].push_back(DirectedWeightedEdges(source, sink, cost));
 		}
 	}
+	stream.close();
 
 }
 
 inline Graph::Graph(string name)
 {
 	open(name);
+}
+
+inline vector<DirectedWeightedEdges> Graph::getConnections(int node)
+{
+	return graph[node];
 }

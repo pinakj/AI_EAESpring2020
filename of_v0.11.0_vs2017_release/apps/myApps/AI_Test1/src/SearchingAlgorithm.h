@@ -33,7 +33,8 @@ public:
 		void put(NodeRecord node, int prio)
 		{
 			std::pair<NodeRecord, int> element;
-			for (int i = 0; i < elements.size(); i++)
+			int eSize = elements.size();
+			for (int i = 0; i < eSize; i++)
 			{
 				element = elements[i];
 				if (element.second > prio)
@@ -55,6 +56,38 @@ public:
 		{
 			return elements.empty();
 		}
+
+		bool contains(int node)
+		{
+			for (std::pair<NodeRecord, int> element : elements)
+			{
+				if (element.first.node == node)
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		NodeRecord find(int node)
+		{
+			std::pair<NodeRecord, int> element;
+			NodeRecord temp;
+			int eSize = elements.size();
+
+			for (int i = 0; i < eSize; i++)
+			{
+				element = elements[i];
+				if (element.first.node == node)
+				{
+					temp = element.first;
+					elements.erase(elements.begin() + i);
+					return temp;
+				}
+			}
+			return temp;
+		}
+
 	};
 public:
 	static std::vector<int> pathfindDijkstra(Graph graph, int start, int end);

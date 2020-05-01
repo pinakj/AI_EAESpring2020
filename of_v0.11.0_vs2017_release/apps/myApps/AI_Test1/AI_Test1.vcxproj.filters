@@ -25,9 +25,6 @@
     <ClCompile Include="src\DirectedWeightedEdges.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Graph.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

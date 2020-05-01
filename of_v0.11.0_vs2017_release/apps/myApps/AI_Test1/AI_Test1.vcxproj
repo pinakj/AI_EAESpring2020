@@ -183,7 +183,6 @@
     <ClCompile Include="src\Algorithm.cpp" />
     <ClCompile Include="src\Boid.cpp" />
     <ClCompile Include="src\DirectedWeightedEdges.cpp" />
-    <ClCompile Include="src\Graph.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\SearchingAlgorithm.cpp" />
