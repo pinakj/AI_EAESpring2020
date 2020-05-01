@@ -2,6 +2,11 @@
 #include "ofApp.h"
 #include "Boid.h"
 
+Algorithm::Algorithm()
+{
+	nextMovementIndex = 1;
+}
+
 void Algorithm::basicMotion(Boid *boid)
 {
 	ofVec2f curVel;

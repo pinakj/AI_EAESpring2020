@@ -2,6 +2,7 @@
 #include "ofApp.h"
 
 class Boid;
+class SearchingAlgorithm;
 
 class Algorithm
 {
@@ -19,6 +20,10 @@ public:
 			linear = ofDefaultVec2(0, 0);
 		}
 	}steering;
+
+	int nextMovementIndex;
+
+	Algorithm();
 
 	static void basicMotion(Boid *kinematic);
 
@@ -39,6 +44,7 @@ public:
 	static Algorithm::SteeringOutput* lookWhereYouAreGoing(Boid * character, float targetRadius, float slowRadius, float maxAngular, float maxRotation);
 
 	static Algorithm::SteeringOutput* DynamicArrive(Boid * character, Boid* target, float targetRadius, float slowRadius, float maxLinear);
+
 
 };
 

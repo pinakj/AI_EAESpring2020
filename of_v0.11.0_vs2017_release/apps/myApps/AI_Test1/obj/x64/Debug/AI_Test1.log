@@ -1,17 +1,17 @@
-﻿  SearchingAlgorithm.cpp
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\apps\myapps\ai_test1\src\searchingalgorithm.h(36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\u0965201\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\apps\myapps\ai_test1\src\searchingalgorithm.h(76): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  AI_Test1.vcxproj -> C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\AI_Test1_debug.exe
+﻿  ofApp.cpp
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\apps\myapps\ai_test1\src\searchingalgorithm.h(88): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\pinak jalan\documents\ai_eaespring2020\of_v0.11.0_vs2017_release\apps\myapps\ai_test1\src\searchingalgorithm.h(129): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AI_Test1.vcxproj -> C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\AI_Test1_debug.exe
   
-  	                   2	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\libs\fmodex\lib\vs\x64\
-  	  *EXTRA File 		 6942208	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\FreeImage.dll
+  	                   2	C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\libs\fmodex\lib\vs\x64\
+  	  *EXTRA File 		 6942208	C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\FreeImage.dll
   
-  	                   1	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\libs\FreeImage\lib\vs\x64\
-  	  *EXTRA File 		 1503232	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\fmodex64.dll
-  	  *EXTRA File 		 1552384	C:\Users\u0965201\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\fmodexL64.dll
+  	                   1	C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1503232	C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\fmodex64.dll
+  	  *EXTRA File 		 1552384	C:\Users\Pinak Jalan\Documents\AI_EAESpring2020\of_v0.11.0_vs2017_release\apps\myApps\AI_Test1\bin\fmodexL64.dll
